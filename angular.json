@@ -3,11 +3,12 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "feedbacker-admin-app": {
+    "front_app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
-          "strict": false
+          "strict": false,
+          "skipTests": true
         }
       },
       "root": "",
